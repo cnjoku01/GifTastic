@@ -1,0 +1,19 @@
+.jumbotron{
+	/*padding: 1%;*/
+	background-color: yellowgreen;
+	color: #ffffff;
+}
+
+body{
+	background-image: url(../assets/images/dims.jpeg);
+	text-align: center;
+}
+
+#movies{
+    padding: 3%;
+    
+}
+
+div{
+	margin-bottom: 2%;
+}
