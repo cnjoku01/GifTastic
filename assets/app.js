@@ -22,9 +22,9 @@ $(document).ready(function () {
 
 
 	// Getting gifs from api... onto html
-	$("button").on("click", function () {
+	$("body").on("click", "button", function () {
 		var movie = $(this).attr("data-movie");
-		var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=f9orBoT5uXzOOrfbbAuuaywOXj3VRBM4" +
+		var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=f9orBoT5uXzOOrfbbAuuaywOXj3VRBM4&limit=10&q=" +
 			movie 
 		$.ajax({
 			url: queryURL,
